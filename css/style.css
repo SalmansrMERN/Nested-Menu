@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+
+    background: url(../images/30688403_1878254972208908_1363478118764904448_o.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    background: #00000080;
+    height: 55px;
+    opacity: 0.9;
+    padding-left: 375px;
+
+}
+
+.main ul li {
+    float: left;
+}
+
+.main ul li a {
+    color: yellow;
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 55px;
+    display: block;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.main ul li a:hover {
+    color: #c91313;
+    text-decoration: underline;
+}
+
+.main ul li:hover {
+    background-color: black;
+    border-radius: 15px;
+}
+
+.main ul li {
+    position: relative;
+}
+
+.main ul li ul {
+    margin-top: 5px;
+    border-radius: 20px;
+    position: absolute;
+    width: 250px;
+    background-color: yellow;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.main ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.main ul li ul a:hover {
+    text-decoration: overline;
+}
+
+.main ul li ul li {
+    width: 100%;
+}
+
+.main ul li ul li a {
+    color: #3d11b8;
+
+}
+
+.main ul li ul li ul {
+    left: 100%;
+    top: 0;
+    width: 240px;
+    background-color: #0be4c7;
+    margin-left: 5px;
+
+}
